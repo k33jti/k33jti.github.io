@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.bg {
+  background-image: url("header.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	padding-top: 200px;
+}
+
+.button {
+	  flex: 1;
+	  padding: 15px 40px;
+	  margin: 25px;
+	  border-radius: 999px;
+	  border: 2px solid;
+	  border-color: blue;
+	  background-color: blue;
+	  color: white;
+	  display: block;
+	  max-width: 300px;
+	  margin: auto;
+	  cursor: pointer;
+}
+
